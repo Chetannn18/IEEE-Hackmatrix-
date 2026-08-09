@@ -1,0 +1,27 @@
+{
+  "model_version": "lr-1775338540101",
+  "trained_at": "2026-04-04T21:35:40.101Z",
+  "feature_order": [
+    "inactivity_minutes_norm",
+    "speed_kmh_norm",
+    "outside_zone_flag",
+    "nearby_incidents_norm",
+    "nearby_critical_incidents_norm",
+    "user_anomalies_24h_norm"
+  ],
+  "weights": [
+    3.3921519501270176,
+    -0.250642391241611,
+    0.6761315952868985,
+    0.9290837522439748,
+    -0.6703820258556185,
+    -0.7096475895539669
+  ],
+  "bias": -0.3404529550689465,
+  "sample_count": 166,
+  "positive_count": 83,
+  "negative_count": 83,
+  "training_loss": 0.4547929224918074,
+  "training_accuracy": 0.8373493975903614,
+  "source": "trained"
+}
